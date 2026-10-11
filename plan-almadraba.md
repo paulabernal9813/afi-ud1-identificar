@@ -43,44 +43,44 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 ### Prioridad 1 — Datos que pueden perderse en minutos
 
 1. **Portátil de Marta encendido.** Es la fuente más urgente porque está encendido. En la memoria RAM puede haber archivos abiertos, programas, conexiones y datos temporales. No debe apagarse.  
-   **Lista de comprobación: “No apagar ningún sistema encendido” — RFC 3227 §2.2**
+   **Lista de comprobación: “No apagar ningún sistema encendido”**
 
 2. **Registros del cortafuegos.** Solo se conservan alrededor de una semana. Si se espera, pueden sobrescribirse y perderse las conexiones de esos días.  
-   **Lista de comprobación: “Preguntar por registros remotos” — RFC 3227 §2.1, §3.2; NIST SP 800-86 §3.1.1**
+   **Lista de comprobación: “Preguntar por registros remotos”**
 
 3. **iPhone de empresa.** Los mensajes de WhatsApp, fotos y archivos pueden borrarse o modificarse fácilmente. También puede haber notificaciones o sesiones abiertas.  
-   **Lista de comprobación: “Hacer inventario de dispositivos” — NIST SP 800-86 §3.1.1**
+   **Lista de comprobación: “Hacer inventario de dispositivos”**
 
 4. **Sesión de Outlook abierta en el sobremesa compartido.** Puede cerrarse sola, cerrarse por inactividad o modificarse. Hay que documentarla antes de que desaparezca.  
-   **Lista de comprobación: “Fotografiar y documentar el estado inicial” — ENFSI §8.2**
+   **Lista de comprobación: “Fotografiar y documentar el estado inicial”**
 
 ### Prioridad 2 — Datos que pueden alterarse o desaparecer pronto
 
 5. **Pendrive de Javier.** Puede contener archivos copiados por Marta. Hay que asegurarlo cuanto antes para que nadie lo use, lo borre o lo sobrescriba.  
-   **Lista de comprobación: “Inventario de dispositivos” — NIST SP 800-86 §3.1.1**
+   **Lista de comprobación: “Inventario de dispositivos”**
 
 6. **Disco externo de 2 TB.** Puede contener el render o copias de archivos. Hay que identificarlo y evitar que se conecte a otro equipo antes de analizarlo.  
-   **Lista de comprobación: “Inventario de dispositivos” — NIST SP 800-86 §3.1.1**
+   **Lista de comprobación: “Inventario de dispositivos”**
 
 7. **Historial de la impresora.** No se sabe cuánto tiempo conserva los trabajos. Puede demostrar si se escaneó el render y a qué correo se envió.  
-   **Lista de comprobación: “Preguntar por registros remotos” — RFC 3227 §2.1, §3.2**
+   **Lista de comprobación: “Preguntar por registros remotos”**
 
 8. **OneDrive y servidor de ficheros.** Pueden tener registros de accesos, descargas, modificaciones y versiones anteriores. Hay que pedir que se conserven antes de que alguien borre o sincronice archivos.  
-   **Lista de comprobación: “Preguntar por copias de seguridad y datos fuera del equipo” — RFC 3227 §2.1, §3.2; NIST SP 800-86 §3.1.1**
+   **Lista de comprobación: “Preguntar por copias de seguridad y datos fuera del equipo”**
 
 9. **NAS de copias de seguridad.** Aunque conserva catorce copias, puede sobrescribirse con nuevas copias nocturnas. Hay que pedir que se protejan las copias anteriores al incidente.  
-   **Lista de comprobación: “Preguntar por copias de seguridad” — RFC 3227 §2.1, §3.2**
+   **Lista de comprobación: “Preguntar por copias de seguridad”**
 
 ### Prioridad 3 — Información que puede solicitarse a terceros
 
 10. **Cámara del pasillo.** Las grabaciones pueden borrarse automáticamente después de unos días. Hay que pedir cuanto antes a la administración del edificio que las conserve.  
-    **Lista de comprobación: “Identificar sistemas remotos” — NIST SP 800-86 §3.1.1**
+    **Lista de comprobación: “Identificar sistemas remotos”**
 
 11. **Registros de Microsoft, OneDrive y BitLocker.** Hay que pedirlos a través de Bahía Sistemas o de los responsables correspondientes.  
-    **Lista de comprobación: “Identificar sistemas remotos” — NIST SP 800-86 §3.1.1**
+    **Lista de comprobación: “Identificar sistemas remotos”**
 
 12. **Testimonios de Elena y Javier.** Hay que recogerlos por escrito cuanto antes, porque con el tiempo pueden olvidar detalles.  
-    **Lista de comprobación: “No olvidar a las personas” — RFC 3227 §3.2**
+    **Lista de comprobación: “No olvidar a las personas”**
 
 ## 3. Medidas inmediatas
 
@@ -91,14 +91,14 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 - **Fotografiar la pantalla bloqueada, el portátil, el dock, los monitores, los cables y el disco externo.**
 - **Aislarlo de la red solo si se confirma que desconectarlo no va a borrar datos remotos.** Antes hay que consultar con Bahía Sistemas, porque Marta usa VPN y los archivos se sincronizan con OneDrive.
 - **Si es posible y está autorizado, capturar primero la memoria RAM y los datos volátiles con herramientas forenses desde un medio externo.**  
-  **Lista de comprobación: “No apagar ningún sistema encendido”, “No confiar en programas del propio equipo”, “Priorizar lo más volátil” — RFC 3227 §2.1, §2.2, §5**
+  **Lista de comprobación: “No apagar ningún sistema encendido”, “No confiar en programas del propio equipo”, “Priorizar lo más volátil”**
 
 ### Disco externo
 
 - **No conectarlo a ningún ordenador normal.**
 - **Fotografiarlo y anotar marca, modelo, capacidad y número de serie.**
 - **Guardarlo en un lugar seguro hasta poder hacer una copia forense.**  
-  **Lista de comprobación: “Inventario de dispositivos”, “Minimizar cambios en el sistema” — NIST SP 800-86 §3.1.1; RFC 3227 §2, §2.2**
+  **Lista de comprobación: “Inventario de dispositivos”, “Minimizar cambios en el sistema”**
 
 ### iPhone de empresa
 
@@ -107,14 +107,14 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 - **Activar el modo avión o aislarlo de la red, si eso no impide recuperar datos necesarios.**
 - **Guardarlo en una bolsa de bloqueo de señal si se dispone de una.**
 - **Pedir autorización específica antes de analizarlo.**  
-  **Lista de comprobación: “Inventario de dispositivos”, “Documentar cada adquisición” — NIST SP 800-86 §3.1.1; RFC 3227 §3.1–3.2**
+  **Lista de comprobación: “Inventario de dispositivos”, “Documentar cada adquisición”**
 
 ### Móvil personal de Marta
 
 - **No tocarlo.** Es un dispositivo personal y Marta ha dicho que no contiene información laboral.
 - **No revisarlo sin su consentimiento expreso o una autorización legal adecuada.**
 - **Documentar que existe, dónde está y qué ha declarado Marta sobre él.**  
-  **Lista de comprobación: “Comprobar autorización legal y alcance” — RFC 3227 §2.3–2.4; NIST SP 800-86 §3.1.1**
+  **Lista de comprobación: “Comprobar autorización legal y alcance”**
 
 ### Sobremesa compartido
 
@@ -122,21 +122,21 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 - **No cerrar sesión ni enviar, borrar o abrir correos.**
 - **Pedir a la compañera propietaria de la cuenta que no la cierre y que informe si recibe algún aviso.**
 - **Si es necesario, hacer una captura o adquisición forense con autorización.**  
-  **Lista de comprobación: “Fotografiar y documentar el estado inicial” — ENFSI §8.2**
+  **Lista de comprobación: “Fotografiar y documentar el estado inicial”**
 
 ### Pendrive de Javier
 
 - **Pedir a Javier que lo entregue y que no lo conecte a ningún equipo.**
 - **Fotografiarlo y guardar en una bolsa o caja etiquetada.**
 - **Registrar quién lo entrega, a qué hora y en qué estado está.**  
-  **Lista de comprobación: “Inventario de dispositivos”, “Documentar cada adquisición” — NIST SP 800-86 §3.1.1; RFC 3227 §3.1–3.2**
+  **Lista de comprobación: “Inventario de dispositivos”, “Documentar cada adquisición”**
 
 ### Impresora multifunción
 
 - **Pedir a Bahía Sistemas o a la persona responsable que no borre el historial de trabajos.**
 - **Solicitar una copia o exportación del historial cuanto antes.**
 - **Fotografiar las pantallas o menús donde se vea el historial.**  
-  **Lista de comprobación: “Preguntar por registros remotos” — RFC 3227 §2.1, §3.2**
+  **Lista de comprobación: “Preguntar por registros remotos”**
 
 ### Servidor de ficheros, OneDrive, NAS y cortafuegos
 
@@ -145,7 +145,7 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 - **Pedir que se conserven los registros de acceso al servidor de ficheros y de actividad en OneDrive.**
 - **Pedir que no se sobrescriban las copias de seguridad del NAS, especialmente las anteriores al 14 de marzo.**
 - **Solicitar información sobre accesos por VPN, dispositivos conectados y actividad de la cuenta `mgarcia`.**  
-  **Lista de comprobación: “Preguntar por copias de seguridad, registros remotos y datos fuera del equipo” — RFC 3227 §2.1, §3.2; NIST SP 800-86 §3.1.1**
+  **Lista de comprobación: “Preguntar por copias de seguridad, registros remotos y datos fuera del equipo”**
 
 ### Cámara del pasillo
 
@@ -159,26 +159,21 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 - **Tomar declaración escrita a Elena Ruiz y Javier.**
 - **Preguntar por fechas, horas, acciones concretas y objetos implicados.**
 - **No sugerir respuestas ni influir en su relato.**  
-  **Lista de comprobación: “No olvidar a las personas” — RFC 3227 §3.2**
+  **Lista de comprobación: “No olvidar a las personas”**
 
 ## 4. Límites
 
 ### Lo que no debemos hacer
 
-- **No apagar el portátil de Marta.** Podría borrar información de la memoria RAM y de programas abiertos.  
-  **RFC 3227 §2.2**
+- **No apagar el portátil de Marta.** Podría borrar información de la memoria RAM y de programas abiertos.
 
 - **No revisar el móvil personal de Marta.** Es un dispositivo privado. Aunque Elena sospeche de ella, no tenemos derecho a registrarlo sin consentimiento o autorización legal.  
-  **RFC 3227 §2.3–2.4**
 
 - **No usar el ordenador de Marta ni abrir archivos directamente.** Abrir documentos, navegar por carpetas o usar programas del equipo puede modificar fechas de acceso y alterar pruebas.  
-  **RFC 3227 §2, §2.2**
 
 - **No cerrar la sesión de Outlook abierta en el sobremesa compartido.** Podría perderse información visible en ese momento.  
-  **ENFSI §8.2**
 
 - **No borrar, mover ni sobrescribir archivos del servidor, OneDrive o NAS.** Hay que pedir que se conserven y, si hace falta, hacer copias forenses.  
-  **RFC 3227 §2.1, §3.2**
 
 - **No acusar a Marta ni tomar decisiones basadas solo en sospechas.** La relación con Lucía, la excedencia y el hecho de quedarse tarde son indicios, no pruebas. Hay que buscar evidencia objetiva.
 
@@ -192,11 +187,3 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 - Recoger declaraciones de Elena y Javier.
 - Usar herramientas forenses desde medios externos y de solo lectura.
 - Mantener una cadena de custodia: quién tiene cada prueba, cuándo y qué se ha hecho con ella.
-
-## Resumen
-
-Lo más urgente es proteger el **portátil encendido**, los **registros del cortafuegos**, el **iPhone de empresa** y la **sesión de Outlook abierta**, porque pueden perderse o modificarse rápidamente. Después hay que asegurar el **pendrive**, el **disco externo**, el **historial de la impresora**, el **servidor de ficheros**, **OneDrive** y el **NAS**.
-
-También hay que pedir ayuda a terceros: **Bahía Sistemas** para los registros técnicos y copias de seguridad, y la **administración del edificio** para conservar las grabaciones de la cámara.
-
-El móvil personal de Marta no debe tocarse sin autorización. La prioridad es conservar las pruebas, no demostrar de antemano que Marta es responsable.
