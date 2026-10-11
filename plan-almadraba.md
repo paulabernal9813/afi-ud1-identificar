@@ -1,4 +1,4 @@
-# Plan de identificación y preservación — Almadraba Diseño
+# Plan de identificación y preservación: Almadraba Diseño
 
 **Fecha y hora:** lunes 20 de marzo, 10:45  
 **Motivo de la intervención:** posible fuga de un render confidencial presentado a un cliente.  
@@ -40,7 +40,7 @@ Estas son todas las cosas que pueden contener información sobre lo ocurrido:
 
 El criterio principal es proteger primero lo que puede desaparecer antes. No solo la memoria RAM: también hay registros que se sobrescriben, mensajes que pueden borrarse y dispositivos que pueden desconectarse.
 
-### Prioridad 1 — Datos que pueden perderse en minutos
+### Prioridad 1: Datos que pueden perderse en minutos
 
 1. **Portátil de Marta encendido.** Es la fuente más urgente porque está encendido. En la memoria RAM puede haber archivos abiertos, programas, conexiones y datos temporales. No debe apagarse.  
    **Lista de comprobación: “No apagar ningún sistema encendido”**
@@ -54,7 +54,7 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 4. **Sesión de Outlook abierta en el sobremesa compartido.** Puede cerrarse sola, cerrarse por inactividad o modificarse. Hay que documentarla antes de que desaparezca.  
    **Lista de comprobación: “Fotografiar y documentar el estado inicial”**
 
-### Prioridad 2 — Datos que pueden alterarse o desaparecer pronto
+### Prioridad 2: Datos que pueden alterarse o desaparecer pronto
 
 5. **Pendrive de Javier.** Puede contener archivos copiados por Marta. Hay que asegurarlo cuanto antes para que nadie lo use, lo borre o lo sobrescriba.  
    **Lista de comprobación: “Inventario de dispositivos”**
@@ -71,7 +71,7 @@ El criterio principal es proteger primero lo que puede desaparecer antes. No sol
 9. **NAS de copias de seguridad.** Aunque conserva catorce copias, puede sobrescribirse con nuevas copias nocturnas. Hay que pedir que se protejan las copias anteriores al incidente.  
    **Lista de comprobación: “Preguntar por copias de seguridad”**
 
-### Prioridad 3 — Información que puede solicitarse a terceros
+### Prioridad 3: Información que puede solicitarse a terceros
 
 10. **Cámara del pasillo.** Las grabaciones pueden borrarse automáticamente después de unos días. Hay que pedir cuanto antes a la administración del edificio que las conserve.  
     **Lista de comprobación: “Identificar sistemas remotos”**
